@@ -1,7 +1,13 @@
-1.- Run <npm install> to install dependencies
-2.- Run 'npm start' to start the server
-3.- Open a web browser and navigate to 'http://localhost:3000/usuarios?id:0' to view the message "lista de usuarios" or 403 error
-4.- To change persmission user go to src/middlewares/auth.ts
-    4.1.- Copy some of the roles from line 22
-    4.2.- Change the role in the request header to the new role (line 8)
-5.- Save the changes and refresh web browser
+# Instrucciones para Configuración
+ 
+1. **Ejecutar el comando** `<npm install>` para instalar las dependencias.
+ 
+2. **Ejecutar el comando** `npm start` para iniciar el servidor.
+ 
+3. **Abrir un navegador web** y navegar a `http://localhost:3000/usuarios?id=0` para ver el mensaje "lista de usuarios" o un error 403.
+ 
+4. **Para cambiar los permisos de un usuario**, ve a `src/middlewares/auth.ts`:
+    1. Copia algunos de los roles desde la línea 22.
+    2. Cambia el rol en el encabezado de la solicitud a un nuevo rol (línea 8).
+ 
+5. **Guardar los cambios** y actualizar el navegador.
