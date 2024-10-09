@@ -1,0 +1,21 @@
+### User registration
+POST http://localhost:3000/users HTTP/1.1
+Content-Type: application/json
+
+{
+    "firstName":"Samuel",
+    "lastName":"Lopez",
+    "email":"samuel@gmail.com",
+    "role":"user",
+    "password":"sampassword",
+    "status": "new"
+}
+
+### Login
+POST http://localhost:3000/users/login HTTP/1.1
+Content-Type: application/json
+
+{
+    "email":"samuel@gmail.com",
+    "password":"sampassword"
+}
